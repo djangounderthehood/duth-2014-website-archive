@@ -33,6 +33,9 @@ grep -rl duth-uploads.s3.amazonaws.com . | xargs sed -e 's/\.\.\/duth-uploads.s3
 grep -rl 'http://maxcdn.bootstrapcdn.com' | xargs sed -e 's/http:\/\/maxcdn.bootstrapcdn.com/https:\/\/maxcdn.bootstrapcdn.com/' -i ''
 grep -rl 'http://fonts.googleapis.com' | xargs sed -e 's/http:\/\/fonts.googleapis.com/https:\/\/fonts.googleapis.com/' -i ''
 grep -rl 'http://use.typekit.net' | xargs sed -e 's/http:\/\/use.typekit.net/https:\/\/use.typekit.net/' -i ''
+grep -rl 'http://www.youtube.com' | xargs sed -e 's/http:\/\/www.youtube.com/https:\/\/www.youtube.com/' -i ''
+grep -rl 'http://speakerdeck.com' | xargs sed -e 's/http:\/\/speakerdeck.com/https:\/\/speakerdeck.com/' -i ''
+grep -rl 'http://www.slideshare.net' | xargs sed -e 's/http:\/\/www.slideshare.net/https:\/\/www.slideshare.net/' -i ''
 
 cd ..
 
