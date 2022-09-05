@@ -1,0 +1,475 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Django: Under the Hood</title>
+        <meta name="description" content="Django: Under the Hood is an exciting new conference for experienced Django developers. Come and learn about the internals of Django, and help to shape its future.">
+        <meta name="keywords" content="programming, python, django, conference, under the hood">
+
+        <meta property="og:title" content="Django: Under the Hood" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Django: Under the Hood is an exciting new conference for experienced Django developers. Come and learn about the internals of Django, and help to shape its future." />
+        <meta property="og:url" content="http://www.djangounderthehood.com/" />
+        <meta property="og:image" content="http://www.djangounderthehood.com/static/img/avatar.png" />
+
+        <link rel="icon" type="image/x-icon" href="static/img/favicon.95b345802335.ico" />
+        <script type="text/javascript" src="http://use.typekit.net/fwr5dcz.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="static/js/main.387c09248a8e.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="static/css/style.a1265bf5aeea.css" media="screen">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="cls">
+                
+
+
+<ul>
+	<li><a href="talks/index.html">Talks</a></li>
+	<li><a href="index.html#speakers">Speakers</a></li>
+	<li><a href="index.html#schedule">Schedule</a></li>
+	<li><a href="index.html#sponsors">Sponsors</a></li>
+	<li><a href="attendees/index.html">Who's coming?</a></li>
+	<li><a href="coc/index.html">Code of conduct</a></li>
+	<li><a href="http://blog.djangounderthehood.com">Blog</a></li>
+</ul>
+
+                <div class="cls"></div>
+            </nav>
+            <main>
+                
+                
+
+<section id="about">
+    
+
+<div class="row">
+    <div class="col-md-4 logo">
+        <a href="index.html"><img src="static/img/logo.6bf65f65e43e.png" alt="Django Under The Hood" /></a>
+    </div>
+    <div class="col-md-8">
+        
+        <h1>Django: Under The Hood</h1>
+        <p>
+            <em>Django: Under the Hood</em> is an exciting new Django conference for
+            experienced Django developers. Come and learn about the internals of
+            Django, and help to shape its future.
+        </p>
+        <p>
+            The conference is being organised by members of the core team in association with the <a href="http://djangovereniging.nl">Dutch Django Association</a>.
+            All attendees must follow the <a href="coc/index.html">Code of Conduct</a>.
+        </p>
+        
+    </div>
+</div>
+
+</section>
+
+<section id="dates">
+    
+
+<div class="row">
+    <div class="col-md-6">
+        <h2><img src="static/img/icons/date.4997e6fd74c8.png" alt="When" /> When?</h2>
+        <p>It's going to take place on the 14th of November (Friday), with sprints on the 15th (Saturday). <a href="index.html#schedule">See more detailed schedule</a>.</p>
+    </div>
+    <div class="col-md-6">
+        <h2><img src="static/img/icons/place.0a516fbf6f87.png" alt="Where" /> Where?</h2>
+        <p>The conference will take place in Amsterdam, Netherlands. On the first day we will meet at <b>Pakhuis de
+        Zwijger</b>. Our host for the second day will be <b><a href="http://travelbird.nl/">TravelBird</a></b>.</p>
+    </div>
+</div>
+
+</section>
+
+<section id="speakers">
+    
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>
+            <img src="static/img/icons/speakers.7f2fc84e60f3.png" alt="Speakers" />
+            Speakers
+        </h2>
+        <p>
+            The schedule is as follows:
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 clearfix">
+        <img src="static/img/speakers/anssi.4be7c6ddc29c.jpg" class="speaker" alt="Anssi Kääriäinen" />
+        <h3>
+            Anssi Kääriäinen
+        </h3>
+        <p>
+            Anssi will be speaking about the Django ORM
+        </p>
+    </div>
+    <div class="col-md-6 clearfix">
+        <img src="static/img/speakers/jannis.2cec27d8dfa0.jpg" class="speaker" alt="Jannis Leidel" />
+        <h3>
+            Jannis Leidel
+        </h3>
+        <p>
+            Jannis will be speaking about internationalisation in Django
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 clearfix">
+        <img src="static/img/speakers/andrew.226dc72a4d50.jpg" class="speaker" alt="Andrew Godwin" />
+        <h3>
+            Andrew Godwin
+        </h3>
+        <p>
+            Andrew will be speaking about the new Django migrations framework
+        </p>
+    </div>
+
+    <div class="col-md-6 clearfix">
+        <img src="static/img/speakers/daniel.af2ef73ccd35.jpg" class="speaker" alt="Daniel Pyrathon" />
+        <h3>
+            Daniel Pyrathon
+        </h3>
+        <p>
+            Daniel will be speaking about Model._meta and his Google Summer of Code work
+        </p>
+    </div>
+</div>
+<div class="row">
+
+    <div class="col-md-6 clearfix">
+        <img src="static/img/speakers/tom.7ea5dcb20208.jpg" class="speaker" alt="Tom Christie" />
+        <h3>
+            Tom Christie
+        </h3>
+        <p>
+            Tom will be speaking about Django Rest Framework and request processing in Django
+        </p>
+    </div>
+
+    <div class="col-md-6 clearfix">
+        <img src="static/img/speakers/armin.21e013a6cf48.jpg" class="speaker" alt="Armin Ronacher" />
+        <h3>
+            Armin Ronacher
+        </h3>
+        <p>
+            Armin will be speaking about python templating languages
+        </p>
+    </div>
+</div>
+
+</section>
+
+<section id="schedule">
+    
+
+<div class="row">
+    <div class="col-md-6 clearfix">
+    	<h2>
+            <img src="static/img/icons/learn.b3fc772189dd.png" alt="Learn" /> Fri, 14th Nov 2014
+        </h2>
+        <p>Venue: <a href="http://www.iamsterdam.com/en-GB/Ndtrc/Pakhuis%20De%20Zwijger">Pakhuis De Zwijger</a></p>
+        <div class="timetable">
+        	<div class="row break">
+        		<div class="col-md-2">9:30</div>
+        		<div class="col-md-10">Registration</div>
+	        </div>
+	        <div class="row">
+        		<div class="col-md-2">10:20</div>
+        		<div class="col-md-10">Welkom!</div>
+	        </div>
+	        <div class="row">
+        		<div class="col-md-2">10:30</div>
+        		<div class="col-md-10">Anssi Kääriäinen - Django ORM</div>
+	        </div>
+	        <div class="row">
+        		<div class="col-md-2">11:30</div>
+        		<div class="col-md-10">Andrew Godwin - Django migrations</div>
+	        </div>
+	        <div class="row break">
+        		<div class="col-md-2">12:30</div>
+        		<div class="col-md-10">Lunch</div>
+	        </div>
+	        <div class="row">
+        		<div class="col-md-2">13:30</div>
+        		<div class="col-md-10">Tom Christie - Django REST Framework</div>
+	        </div>
+	        <div class="row">
+        		<div class="col-md-2">14:30</div>
+        		<div class="col-md-10">Jannis Leidel - internationalisation</div>
+	        </div>
+	        <div class="row break">
+        		<div class="col-md-2">15:30</div>
+        		<div class="col-md-10">Coffee break</div>
+	        </div>
+	        <div class="row">
+        		<div class="col-md-2">16:00</div>
+        		<div class="col-md-10">Daniel Pyrathon - Model._meta</div>
+	        </div>
+	        <div class="row">
+        		<div class="col-md-2">17:00</div>
+        		<div class="col-md-10">Armin Ronacher - Python templating</div>
+	        </div>
+	        <div class="row break">
+        		<div class="col-md-2">18:00</div>
+        		<div class="col-md-10">Goodbye</div>
+	        </div>
+	    </div>
+    </div>
+    <div class="col-md-6 clearfix">
+        <h2>
+            <img src="static/img/icons/hack.e5590c3509ea.png" alt="Contribute" /> Sat, 15th November 2014
+        </h2>
+        <p>Venue: <a href="http://travelbird.nl/contact/">Travel Bird Office</a></p>
+        <div class="timetable">
+        	<div class="row break">
+        		<div class="col-md-2">9:30</div>
+        		<div class="col-md-10">Doors open</div>
+	        </div>
+	        <div class="row">
+        		<div class="col-md-2">10:00</div>
+        		<div class="col-md-10">Welkom!</div>
+	        </div>
+	        <div class="row break">
+        		<div class="col-md-2">13:00</div>
+        		<div class="col-md-10">Lunch</div>
+	        </div>
+	        <div class="row">
+        		<div class="col-md-2">14:00</div>
+        		<div class="col-md-10">More Sprinting</div>
+	        </div>
+	        <div class="row break">
+        		<div class="col-md-2">??:??</div>
+        		<div class="col-md-10">Goodbye!</div>
+	        </div>
+	    </div>
+	    <p>
+	        During the <a href="http://en.wikipedia.org/wiki/Sprint_(software_development)">sprints</a>
+	        on the second day, you'll get a chance to contribute to Django or
+	        to a Django-related open source project. Come fix bugs or create
+	        new features alongside the Django core team and other Django
+	        library authors!
+        </p>
+    </div>
+</div>
+
+
+</section>
+
+<section id="tickets">
+    
+
+<h2>
+    <img src="static/img/icons/tickets.500d3e763681.png" alt="Tickets" />
+    Tickets!
+</h2>
+
+<p>The tickets for our event are currently sold out.</p>
+
+<p class="centered"><a href="http://tickets.djangounderthehood.com/" class="btn btn-large">Join the waiting list</a></p>
+
+<p class="small"><b>Refund policy:</b> We can accept ticket cancellations up to two weeks before the event. If you want to cancel after that, we will refund only if we find a new buyer for your ticket. </p>
+
+</section>
+
+</div>
+<section id="sponsors" class="white-background">
+    <div class="container">
+        
+
+<h2>
+    <img src="static/img/icons/sponsors-negative.52c3ba3893ac.png" alt="Supporters" />
+    Supporters
+</h2>
+
+<h3>Gold sponsors</h3>
+
+<div class="row">
+    <div class="col-md-5">
+        <a href="https://mobilevikings.be/en/" target="_blank">
+            <img src="static/duth-uploads.s3.amazonaws.com/mobile_vikings_logo_black.png" alt="Mobile Vikings" title="Mobile Vikings"/>
+        </a>
+    </div>
+    <div class="col-md-7">
+        <p>Mobile Vikings is not your everyday company. As part of <a href="http://vikingco.com/" target="_blank">VikingCo</a>, which also markets <a href="https://citylife.be/" target="_blank">CityLife</a> (check the CityLife App!), our core business is telecoms. But that might just be a cover-up for our alternative development initiatives, hence our embracing Django and Python. We like to do things our own way (<a href="https://mobilevikings.be/en/" target="_blank">Mobile Vikings</a> have been called stubborn), so we developed our own cms’s and to this day keep upgrading our free mobile app (the awesome Viking App). But we’re open-minded too: sharing knowledge is our belief. Maybe you’re already familiar with some of our <a href="https://github.com/vikingco/" target="_blank">open source repositories</a> (django datatrans, django advanced reports or django states)? VikingCo always seeks the win-win in partnerships. Just ask Ingenico, Connective, bhaalu or Sparkcentral. Then, in Makerland 2014, we went ballistic. To such an extent even that we organised our own hackathon in September. Just goes to show...</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-5">
+        <a href="http://www.leukeleu.nl/" target="_blank">
+            <img src="static/duth-uploads.s3.amazonaws.com/leukeleu.png" alt="leukeleu" title="leukeleu"/>
+        </a>
+    </div>
+    <div class="col-md-7">
+        <p>In a team of 10 web developers, we create sophisticated, beautiful, well functioning web apps and (mobile) websites. We like to work with Open Source software, because we believe in sharing knowledge and we never want to stop innovating. We love Django because we think it’s the best thing yet. We’re excited about new techniques and the fast pace that Django gives us while developing the next big thing. We’re quite the perfectionists, so we don’t design, we don’t sell and we don’t play bullshit-bingo. It’s al about the code, period :)</p>
+
+<p>Oh, and we always welcome talent, so if you can relate, <a href="http://www.leukeleu.nl/" target="_blank">let us know</a>!</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-5">
+        <a href="http://rhodecode.com/" target="_blank">
+            <img src="static/duth-uploads.s3.amazonaws.com/hb-full.png" alt="Rhode Code" title="Rhode Code"/>
+        </a>
+    </div>
+    <div class="col-md-7">
+        <p><a href="http://rhodecode.com/" target="_blank">RhodeCode</a> creates tools that enable enterprises to become agile and responsive to the needs of the market place by bringing secure, distributed version control systems behind the firewall, and supporting the adoption of this model through training, support, and flexible integration with existing software.</p>
+
+<p><a href="http://rhodecode.com/" target="_blank">RhodeCode</a>’s flagship product, RhodeCode Enterprise, is installed in-house and offers the industry’s most advanced version control management and cross-platform collaboration suite. RhodeCode Enterprise unifies Git and Mercurial repository management and development workflows. It works with existing technology and integrates with legacy source code, libraries, development systems, issue trackers and is already deployed inside more than 14,000 organizations across Education, Finance, Gaming, Nuclear Energy, R&D, Military, and Government. </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-5">
+        <a href="http://dreamsolution.nl/" target="_blank">
+            <img src="static/duth-uploads.s3.amazonaws.com/dreamsolution.png" alt="Dreamsolution" title="Dreamsolution"/>
+        </a>
+    </div>
+    <div class="col-md-7">
+        <p><a href="http://dreamsolution.nl/" target="_blank">Dreamsolution</a> is a Dutch design and software development company working for the Dutch corporate market. Our design process is aimed at developing bespoke software that is effective and doesn't require upfront knowledge of its specific users. We integrate software engineering, interaction design and functionality.</p>
+
+<p>Our engineers work with Open Source tools such as Python, Django, Linux, Redis and MySQL for backends and SASS for front-end development. We believe that these tools help us achieve the best possible result for our clients.<br /></p>
+    </div>
+</div>
+
+
+<h3>Silver sponsors</h3>
+
+    <div class="row">
+    
+        <div class="col-md-4">
+            <a href="https://www.legalsense.nl/" target="_blank">
+                <img src="static/duth-uploads.s3.amazonaws.com/legalsense.png" alt="legalsense" title="legalsense"/>
+            </a>
+        </div>
+    
+        <div class="col-md-4">
+            <a href="http://sherpany.com/" target="_blank">
+                <img src="static/duth-uploads.s3.amazonaws.com/sherpany.png" alt="Sherpany" title="Sherpany"/>
+            </a>
+        </div>
+    
+        <div class="col-md-4">
+            <a href="http://mirumee.com/" target="_blank">
+                <img src="static/duth-uploads.s3.amazonaws.com/logo-mirumee-2014.png" alt="Mirumee" title="Mirumee"/>
+            </a>
+        </div>
+    
+    </div>
+
+    <div class="row">
+    
+        <div class="col-md-4">
+            <a href="http://www.nelen-schuurmans.nl/EN/home/" target="_blank">
+                <img src="static/duth-uploads.s3.amazonaws.com/nelenschuurmans.png" alt="Nelen &amp; Schuurmans" title="Nelen &amp; Schuurmans"/>
+            </a>
+        </div>
+    
+        <div class="col-md-4">
+            <a href="https://www.django-cms.org/" target="_blank">
+                <img src="static/duth-uploads.s3.amazonaws.com/logo-djangoCMS-nephila-divio.png" alt="Django CMS" title="Django CMS"/>
+            </a>
+        </div>
+    
+        <div class="col-md-4">
+            <a href="http://lincolnloop.com/" target="_blank">
+                <img src="static/duth-uploads.s3.amazonaws.com/ll_logo_landscape_color.png" alt="Lincoln Loop" title="Lincoln Loop"/>
+            </a>
+        </div>
+    
+    </div>
+
+    <div class="row">
+    
+        <div class="col-md-4">
+            <a href="http://twilio.com/" target="_blank">
+                <img src="static/duth-uploads.s3.amazonaws.com/twilio_full.png" alt="Twilio" title="Twilio"/>
+            </a>
+        </div>
+    
+        <div class="col-md-4">
+            <a href="http://python.org/" target="_blank">
+                <img src="static/duth-uploads.s3.amazonaws.com/python-logo-master-v3-TM.png" alt="Python Software Foundation" title="Python Software Foundation"/>
+            </a>
+        </div>
+    
+        <div class="col-md-4">
+            <a href="http://10clouds.com/" target="_blank">
+                <img src="static/duth-uploads.s3.amazonaws.com/Screen_Shot_2014-09-27_at_21.11.35.png" alt="10clouds" title="10clouds"/>
+            </a>
+        </div>
+    
+    </div>
+
+
+<h3>Partners</h3>
+
+    <div class="row">
+    
+        <div class="col-md-4">
+            <a href="http://travelbird.nl/" target="_blank">
+                <img src="static/duth-uploads.s3.amazonaws.com/travelbird.png" alt="Travelbird" title="Travelbird"/>
+            </a>
+        </div>
+    
+        <div class="col-md-4">
+            <a href="http://djangogirls.org/amsterdam" target="_blank">
+                <img src="static/duth-uploads.s3.amazonaws.com/logo-transparent-negative.png" alt="Django Girls" title="Django Girls"/>
+            </a>
+        </div>
+    
+        <div class="col-md-4">
+            <a href="http://startupworks.co/" target="_blank">
+                <img src="static/duth-uploads.s3.amazonaws.com/startupworks.png" alt="StartupWorks" title="StartupWorks"/>
+            </a>
+        </div>
+    
+    </div>
+
+
+<p>We are seeking companies who wish to support the event financially. We hope to bring as many of the Django core team to the event as possible to share knowledge and improve the development process. If you are interested in helping, please <a href="mailto:hello">get in touch</a>.</p>
+
+    </div>
+</section>
+<div class="container">
+
+
+            </main>
+            <footer>
+                
+<img src="static/img/line.0737eba850a6.png" class="hr" />
+
+<div class="row">
+    <div class="col-md-8">
+       	<ul>
+       		<li><a href="http://blog.djangounderthehood.com">Blog</a></li>
+       		<li><a href="http://twitter.com/DjangoUnderHood">Twitter</a></li>
+       		<li><a href="coc/index.html">Code of Conduct</a></li>
+       		<li><a href="coc/index.html#reporting-harrassment">Emergency contact</a></li>
+       	</ul>
+    </div>
+    <div class="col-md-4 twitter">
+        <p>
+        	Got a question? Drop us a line: <a href="mailto:hello">hello@djangounderthehood.com</a>
+        <p>
+            <img src="static/img/icons/twitter.b042b5b6e539.png" alt="Twitter icon" />
+           	<a href="http://twitter.com/DjangoUnderHood">
+                
+            </a>
+        </p>
+    </div>
+</div>
+
+<p class="credits">Django: Under The Hood conference is organized by Erik Romijn, Baptiste Mispelon, Ola Sitarska, and Marc Tamlyn with help from the Dutch Django Association.</p>
+
+            </footer>
+        </div>
+    </body>
+</html>

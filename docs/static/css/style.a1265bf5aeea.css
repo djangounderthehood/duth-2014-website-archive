@@ -1,0 +1,232 @@
+body {
+  background: url("../img/background.c911d850846f.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: white;
+  line-height: 1.6em;
+  font-family: 'proxima-nova';
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+a,
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.container {
+  margin-top: 30px;
+}
+section {
+  margin-top: 60px;
+}
+nav ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 20px;
+}
+nav ul li {
+  float: left;
+  margin-left: 40px;
+}
+nav ul li a {
+  text-decoration: none !important;
+}
+nav ul li.highlighted a {
+  background: rgba(255, 255, 255, 0.9);
+  color: #3a5b9e;
+  padding: 7px 10px 5px 10px;
+}
+nav .logo {
+  max-width: 80px;
+  float: left;
+}
+#about .logo {
+  text-align: center;
+}
+#about h1 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 50px;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  font-weight: 100;
+}
+#about p {
+  font-size: 20px;
+  font-family: 'proxima-nova';
+}
+h2,
+h3,
+h4 {
+  vertical-align: bottom;
+  font-family: 'Cabin Sketch';
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+h2 img,
+h3 img,
+h4 img {
+  margin-right: 15px;
+}
+h3 {
+  font-size: 30px;
+  margin: 40px 0 15px 0;
+}
+h4 {
+  font-size: 20px;
+  margin: 30px 0 10px 0;
+}
+#speakers img.speaker {
+  max-width: 160px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+#speakers h3 {
+  font-weight: bold;
+  font-size: 40px;
+}
+#speakers .row {
+  margin-bottom: 30px;
+}
+#attendees {
+  margin-top: 30px;
+}
+#attendees img.attendee {
+  max-width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+#attendees h4 {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 20px 0 0 0;
+}
+#attendees .col-md-4 {
+  margin-bottom: 30px;
+}
+#attendees p {
+  font-size: 16px;
+}
+#schedule .timetable {
+  padding: 0 60px 0 15px;
+  margin-bottom: 30px;
+}
+#schedule .timetable .row {
+  padding: 5px 0;
+}
+#schedule .timetable .break {
+  background: rgba(255, 255, 255, 0.3);
+}
+#tickets form {
+  width: 50%;
+  margin: 30px auto;
+}
+#tickets form input[type="email"] {
+  width: 70%;
+  font-size: 20px;
+  font-family: 'proxima-nova';
+  padding: 6px 15px;
+  height: auto;
+}
+#tickets form input[type="submit"] {
+  background: #1c2c4c;
+  color: white;
+  font-family: 'proxima-nova';
+  text-transform: uppercase;
+  border: 0px;
+  font-size: 18px;
+  height: auto;
+  padding: 9px 20px 8px;
+}
+#tickets .centered {
+  text-align: center;
+}
+#tickets .btn {
+  background: white;
+  color: #3a5b9e;
+  text-decoration: none;
+  font-size: 20px;
+}
+#tickets .btn-large {
+  font-size: 26px;
+  padding: 10px 30px;
+  margin: 10px 0 20px;
+}
+#tickets .small {
+  font-size: 14px;
+}
+.white-background {
+  background: white;
+  color: #3a5b9e;
+  padding-bottom: 30px;
+}
+.white-background a,
+.white-background a:hover {
+  color: #3a5b9e;
+}
+#sponsors .row {
+  margin: 50px 0;
+}
+#sponsors .row .col-md-4 {
+  text-align: center;
+  line-height: 70px;
+}
+#sponsors .row .col-md-4 img {
+  max-width: 90%;
+}
+#sponsors .row .col-md-5 img {
+  max-width: 90%;
+}
+#sponsors .row .col-md-7 {
+  font-size: 16px;
+  line-height: 160%;
+}
+#talks .row {
+  margin-bottom: 30px;
+}
+#talks .row .speaker {
+  max-width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+#talks .row h3 {
+  margin: 10px 0;
+}
+#talks .row h4 {
+  margin: 0;
+}
+#talks .row .col-md-7 {
+  min-height: 500px;
+}
+footer .hr {
+  margin: 50px 0 50px 0;
+}
+footer .twitter img {
+  margin-right: 15px;
+}
+footer a {
+  text-decoration: none !important;
+}
+footer ul {
+  list-style-type: none;
+}
+footer .credits {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+}
+#coc h3 {
+  font-family: 'Cabin Sketch';
+  font-size: 32px;
+  margin-top: 30px;
+}
+.cls {
+  clear: both;
+}
