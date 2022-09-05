@@ -29,6 +29,11 @@ mv duth-uploads.s3.amazonaws.com 2014.djangounderthehood.com/static/
 # Replace all mentions to the AWS folder and strip signatures, all in one lovely line
 grep -rl duth-uploads.s3.amazonaws.com . | xargs sed -e 's/\.\.\/duth-uploads.s3.amazonaws.com/static\/duth-uploads.s3.amazonaws.com/' -e 's/@[^"]*//' -i ''
 
+# HTTP -> HTTPS
+grep -rl 'http://maxcdn.bootstrapcdn.com' | xargs sed -e 's/http:\/\/maxcdn.bootstrapcdn.com/https:\/\/maxcdn.bootstrapcdn.com/' -i ''
+grep -rl 'http://fonts.googleapis.com' | xargs sed -e 's/http:\/\/fonts.googleapis.com/https:\/\/fonts.googleapis.com/' -i ''
+grep -rl 'http://use.typekit.net' | xargs sed -e 's/http:\/\/use.typekit.net/https:\/\/use.typekit.net/' -i ''
+
 cd ..
 
 mkdir -p docs
